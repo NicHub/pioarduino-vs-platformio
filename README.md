@@ -1,41 +1,13 @@
-# HELLO WORLD PIOARDUINO
+# PIOARDUINO vs PLATFORMIO
 
-Projet Arduino Uno avec PlatformIO (CLI).
+## Comparaison pioarduino vs PlatformIO
 
-## Commandes utiles
+-  [Gérer la migration de PlatformIO vers pioarduino]
+-  [pioarduino — Why this fork?]
+-  [ChatGPT — Comparaison pioarduino vs PlatformIO]
+-  [Quelques commandes CLI pour vérifier que les deux extensions sont interchangeable]
 
-### Build (compilation)
-
-```shell
-pio run
-```
-
-### Upload (téléversement sur la carte)
-
-```shell
-pio run -t upload
-```
-
-### Erase flash (efface uniquement la flash)
-
-```shell
-pio run -t erase
-```
-
-### Monitor (console série)
-
-```shell
-pio device monitor
-```
-
-### Clean (nettoyage du build)
-
-```shell
-pio run -t clean
-```
-
-### Build + upload + monitor (enchaînés)
-
-```shell
-pio run -t upload -t monitor
-```
+[Gérer la migration de PlatformIO vers pioarduino]: PIOARDUINO-VS-PLATFORMIO.md
+[pioarduino — Why this fork?]: https://github.com/pioarduino/pioarduino-vscode-ide/blob/HEAD/WHY_THIS_FORK.md
+[ChatGPT — Comparaison pioarduino vs PlatformIO]: https://chatgpt.com/share/6aabbbe8-4390-83eb-8e5c-307b17099db5
+[Quelques commandes CLI pour vérifier que les deux extensions sont interchangeable]: COMMANDS.md
